@@ -1,0 +1,22 @@
+{
+  "name": "react_app",
+  "version": "1.0.0",
+  "description": "a react flux application",
+  "main": "client.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andela-tisrael/react_app.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Israel Tomilayo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andela-tisrael/react_app/issues"
+  },
+  "homepage": "https://github.com/andela-tisrael/react_app#readme"
+}
