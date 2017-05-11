@@ -18,5 +18,17 @@
   "bugs": {
     "url": "https://github.com/andela-tisrael/react_app/issues"
   },
-  "homepage": "https://github.com/andela-tisrael/react_app#readme"
+  "homepage": "https://github.com/andela-tisrael/react_app#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "browserify": "^14.3.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-open": "^2.0.0",
+    "jquery": "^3.2.1",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
 }
