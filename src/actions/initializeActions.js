@@ -1,6 +1,7 @@
 "use strict";
 var Dispatcher = require('../dispatcher/appDispatcher');
 var authorApi = require('../api/authorApi');
+var courseApi = require('../api/courseApi');
 var actionTypes = require('../constant/actionTypes');
 
 var InitializeActions = {
@@ -8,7 +9,15 @@ var InitializeActions = {
     Dispatcher.dispatch({
       actionType: actionTypes.INITIALIZE,
       initialData: {
-        authors: authorApi.getAllAuthors()
+        authors: authorApi.getAllAuthors(),
+      }
+    });
+  },
+  initCourse: function () {
+    Dispatcher.dispatch({
+      actionType: actionTypes.INITIALIZE_COURSES,
+      initialData: {
+        courses: courseApi.getAllCourses(),
       }
     });
   }

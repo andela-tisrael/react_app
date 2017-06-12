@@ -13,6 +13,13 @@ var authorActions = {
       author: newAuthor
     })
   },
+  deleteAuthor: function (id) {
+    authorApi.deleteAuthor(id);
+    Dispatcher.dispatch({
+      actionType: actionTypes.DELETE_AUTHOR ,
+      id: id
+    })
+  },
 
   updateAuthor: function (author) {
     var updatedAuthor = authorApi.saveAuthor(author);

@@ -5,6 +5,7 @@ var routes = require('./routes');
 var InitializeActions = require('./actions/initializeActions');
 
 InitializeActions.initApp();
+InitializeActions.initCourse();
 
 Router.run(routes, function (Handler) {
 

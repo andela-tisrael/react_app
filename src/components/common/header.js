@@ -29,6 +29,11 @@ var Header = React.createClass({
                   Authors
                 </Link>
               </li>
+              <li>
+                <Link to="courses">
+                  Courses
+                </Link>
+              </li>
             </ul>
         </div>
       </nav>
